@@ -29,13 +29,13 @@ button {
 
 .boss {
   max-width: 900px;
-  /* width: 800px; */
+  /* I gave the main con a maxwidth of 900px; because it is not taking the whole space of my laptop from design template  */
   height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* align-content: center; */
   margin: 150px auto;
-  /* margin-top: 150px; */
+  /* BLESSING TAKE NOTE OF HOW MARGIN AUTO WORKS  */
 }
 
 /* MEDIA QUERY FOR BOSS FROM 500PX TO 0PX */
