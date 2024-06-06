@@ -50,7 +50,7 @@ button {
 /* ====================== */
 .sedans {
   max-width: 300px;
-  height: 300px;
+  height: 320px;
   background-color: var(--Bright-orange);
   padding: 50px 50px;
   border-top-left-radius: 10px;
@@ -67,7 +67,7 @@ button {
   color: var(--Transparent-white);
   line-height: 20px;
   margin-bottom: 50px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   padding-right: 10px;
 }
@@ -91,14 +91,19 @@ button {
 
 @media (max-width: 500px) {
   .sedans {
+    height: 270px;
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
+  }
+
+  .sedans p {
+    margin-bottom: 25px;
   }
 }
 /* ===================== */
 .suv {
   max-width: 300px;
-  height: 300px;
+  height: 320px;
   background-color: var(--Dark-cyan);
   padding: 50px 50px;
 }
@@ -113,9 +118,9 @@ button {
   color: var(--Transparent-white);
   line-height: 20px;
   margin-bottom: 50px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .suv button {
@@ -133,10 +138,19 @@ button {
   border: 2px solid var(--Very-light-gray);
 }
 
+/* MEDIA QUERY FOR SUV */
+@media (max-width: 500px) {
+  .suv {
+    height: 270px;
+  }
+  .suv p {
+    margin-bottom: 25px;
+  }
+}
 /* ============================ */
 .luxury {
   max-width: 300px;
-  height: 300px;
+  height: 320px;
   background-color: var(--Very-dark-cyan);
   padding: 50px 50px;
   border-top-right-radius: 10px;
@@ -153,7 +167,7 @@ button {
   color: var(--Transparent-white);
   line-height: 20px;
   margin-bottom: 50px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   padding-right: 12px;
 }
@@ -176,7 +190,11 @@ button {
 /* MEDIA QUERY */
 @media (max-width: 500px) {
   .luxury {
+    height: 270px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
+  }
+  .luxury p {
+    margin-bottom: 25px;
   }
 }
